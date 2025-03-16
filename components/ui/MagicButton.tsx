@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 
 export const MagicButton = ({
@@ -11,6 +12,7 @@ export const MagicButton = ({
 }) => {
     return (
         <button
+        onClick={handleClick}
             className="relative inline-flex h-12
          overflow-hidden rounded-lg 
          p-[1px] focus:outline-none md:w-60 md:mt-10">

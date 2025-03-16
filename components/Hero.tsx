@@ -1,3 +1,5 @@
+
+'use client';
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
@@ -46,8 +48,9 @@ export const Hero = () => {
 
                     <a href='#about'>
                         <MagicButton
+                            handleClick={() => { }}
                             title="Show my work"
-                            icons={<FaLocationArrow/>}
+                            icons={<FaLocationArrow />}
                             position='right' />
                     </a>
                 </div>
