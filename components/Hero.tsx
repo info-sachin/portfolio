@@ -42,7 +42,7 @@ export const Hero = () => {
                     Experiences'/>
                     <p className='text-center md:tracking-wider
                     mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I@apos;a Sachin Lakhara, a Fullstack mobile app developer
+                        Hi, I&apos;a Sachin Lakhara, a Fullstack mobile app developer
                         based in Ahmedabad.
                     </p>
 
