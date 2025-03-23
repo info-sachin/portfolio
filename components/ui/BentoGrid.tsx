@@ -2,7 +2,7 @@
 import { cn } from "@/libs/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import Lottie from "react-lottie";
+
 import { useState } from "react";
 import animationData from "../data/confetti.json"
 import { MagicButton } from "./MagicButton";
@@ -151,7 +151,7 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
               </div>
               <MagicButton
                 title={copied ? "Email Copied!" : 'Copy my email'}
