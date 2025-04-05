@@ -4,7 +4,6 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 
 import { useState } from "react";
-import animationData from "../data/confetti.json"
 import { MagicButton } from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 export const BentoGrid = ({
@@ -50,14 +49,7 @@ export const BentoGridItem = ({
     navigator.clipboard.writeText('info.sachinlakhara10@gmail.com');
     setCopied(true)
   }
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  
   return (
     <div
       className={cn(
