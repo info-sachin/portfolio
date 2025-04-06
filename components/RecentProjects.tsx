@@ -47,7 +47,7 @@ export const RecentProjects = () => {
                   {/* background layer (optional) */}
                 </div>
                 <img
-                  src={'/coming-soon.png'}
+                  src={ (item.id ===1 || item.id ===16 || item.id ===19 )? item.img : '/coming-soon.png'}
                   alt="cover"
                   className="z-10 absolute rounded-2xl"
                 />

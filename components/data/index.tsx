@@ -79,7 +79,7 @@ export const projects = [
       "Family Tree is a social networking app tailored for families. It allows users to add and define relationships, visualizing them in a tree structure. The app supports chat and member invitations, fostering better family connection in a digital space.",
     technology: ["Flutter", "Firebase", "Cloud Firestore"],
     skillsGained: ["Relationship modeling", "Graph-based UI", "Firebase Auth", "Real-time sync"],
-    img: "/family-tree.png",
+    img: "/familytree-min.png",
     iconLists: ["/flutter.svg", "/firebase.svg"],
     link: "/",
   },
@@ -259,7 +259,7 @@ export const projects = [
       "Accufix Tools is a custom Shopify storefront for power tools, featuring a clean theme, product filters, and an intuitive shopping experience.",
     technology: ["Shopify", "Liquid", "JavaScript"],
     skillsGained: ["Shopify theme editing", "Product filtering", "Checkout customization"],
-    img: "/accufix.png",
+    img: "/accufix-min.png",
     iconLists: ["/shopify.svg", "/liquid.svg"],
     link: "/",
   },
@@ -300,7 +300,7 @@ export const projects = [
       "Managing high-performance data flow",
       "Implementing animated sports dashboards"
     ],
-    img: "/ssn.png",
+    img: "/ssn-min.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/",
   }
